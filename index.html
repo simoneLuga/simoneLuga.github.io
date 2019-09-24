@@ -27,39 +27,39 @@
 </head>
 
 <body>
-    <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark" >
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" >
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">S.L.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#home">L.S.</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav">
-                <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                        aria-controls="home" aria-selected="true">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="game-tab" data-toggle="tab" href="#game" role="tab"
-                        aria-controls="profile" aria-selected="false">Game Link</a>
-                </li>
-            </ul>
-            <!-- PER ORA TOGLIAMO LA RICERCA -->
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Curriculum Vitae</a>
+            <a class="nav-item nav-link " href="#">anna scema!</a>
+          </div>
         </div>
-    </nav>
-    <div class="tab-content" id="myTabContent" >
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-        ciao questa sarà la home dove ancora devo capire cosa metterci ma credo che principalmente notizie stupide
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-50" src="img/WhatsApp Image 2019-09-22 at 12.09.38.jpeg" alt="First slide">
+          </div>
         </div>
-        <div class="tab-pane fade" id="game" role="tabpanel" aria-labelledby="profile-tab">
-            Qui ci saranno i link dei giochi Online carini
-        </div>
-    </div>
-
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 </body>
 
 </html>
