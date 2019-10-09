@@ -1,0 +1,57 @@
+.navbar-transparent {
+    z-index: 1030;
+    background-color: transparent;
+    background: 0%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.parallax-top {
+    /* The image used */
+    background-image: url("../img/sfondo_02.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-down {
+    /* The image used */
+    background-image: url("../img/bg3.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.scritteBianche {
+    color: white;
+}
+
+.marginTop {
+    margin-top: 130px;
+}
+
+.prova {
+    position: relative;
+}
+
+.prova li {
+    background-color: black;
+    height: 10px;
+    width: 10px;
+}
