@@ -17,12 +17,13 @@
 </head>
 
 <body>
-    <!-- TODO: creare uno stile carino per le scritte -->
-    <!-- todo: COMMENTARE -->
+
+    <!-- Prima parte con parallax -->
     <div id="LandingPage">
         <div class="parallax-top" id="primaParte">
             <div class="container scritteBianche">
-                <nav class="navbar navbar-expand-lg navbar-light navbar-trasparent navbar-top ">
+                <!-- navbar con logo e link per i social -->
+                <nav class="navbar navbar-expand-lg navbar-light navbar-trasparent navbar-top mb-5">
                     <a class="navbar-brand" href="https://simoneluga.github.io/">
                         <img src="img/40a941c87e82b412a45e0d395d7c9a7077cc788b_full.jpg" width="30" height="30" class="d-inline-block align-top rounded-circle" alt=""><span class="scritteBianche">
                             S.L.</span>
@@ -49,9 +50,10 @@
 
                     </div>
                 </nav>
-                <div class="row" style="margin-top:50px">
+                <!-- immagine 1 con prima parte di scritte -->
+                <div class="row mt-5" >
                     <div class="col-md-5 col-md-offest-1">
-                        <img src="img/iphone-11-pro.png" alt="" class="responsive">
+                        <img src="img/mi9.png" alt="" class="responsive zoom">
                     </div>
                     <div class="col-md-6 ">
                         <div class="marginTop ">
@@ -63,6 +65,7 @@
                 </div>
             </div>
         </div>
+        <!-- JUMBOTRON -->
         <div id="secondaParte ">
             <div class="jumbotron jumbotron-fluid ">
                 <div class="container " style="text-align: center; ">
@@ -73,28 +76,28 @@
                 </div>
             </div>
         </div>
-
+        <!-- quarta e terza parte sono usuali a invertiti con le immagini -->
         <div id="terzaParte " class="marginTop ">
             <div class="container ">
                 <div class="row ">
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 justify-content-center">
                         <h2>Lorem, ipsum dolor.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum nesciunt exercitationem quam, possimus debitis minus? Molestias possimus molestiae impedit inventore ratione quaerat expedita mollitia eos saepe. Iste tenetur
                             eveniet neque qui reprehenderit mollitia ex asperiores dignissimos voluptate quaerat, culpa id quidem velit similique inventore suscipit. Quis eos neque velit.</p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, obcaecati quos accusantium architecto enim ipsa cum explicabo excepturi asperiores alias.</p>
                     </div>
 
-                    <div class="col-md-5 col-md-offest-1 ">
-                        <img src="img/creative_blog.png " alt="immagine computer " class="responsive">
+                    <div class="col-md-5 offset-md-1">
+                        <img src="img/creative_blog.png" alt="immagine computer" class="img-fluid zoom">
                     </div>
                 </div>
             </div>
         </div>
-        <div id="quartaParte " class="marginTop ">
-            <div class="container ">
+        <div id="quartaParte" class="marginTop">
+            <div class="container">
                 <div class="row ">
-                    <div class="col-md-5 col-md-offest-1 ">
-                        <img src="img/easy_to_integrate.jpg " alt="immagine computer 2 " class="responsive">
+                    <div class="col-md-6">
+                        <img class="img-fluid zoom" src="img/easy_to_integrate.jpg" alt="immagine computer 2">
                     </div>
                     <div class="col-md-6 ">
                         <h2>Lorem, ipsum dolor.</h2>
@@ -103,11 +106,13 @@
                         </p>
                         <p>veritatis natus! Harum doloribus nisi amet saepe quod! Adipisci! Maiores consequuntur, irem quia reprehenderit fuga eum, rerum ratione eius voluptates eos impedit! S</p>
                         </p>
-                        <button type="button" class="btn btn-dark">LOREM</button>
+                        <button type="button" class="btn btn-dark zoom">LOREM</button>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- card-deck di boostrap -->
         <div id="quintaParte" class="marginTop ">
             <div class="container">
                 <div class="text-center">
@@ -115,21 +120,21 @@
                 </div>
                 </br>
                 <div class="card-deck">
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-file fa-4x"></i></h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-bell fa-4x"></i></h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-                    <div class="card text-center" style="width: 18rem;">
+                    <div class="card text-center">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-star fa-4x"></i></h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -138,6 +143,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- carousel un po modificato -->
             <div id="sestaParte" class="marginTop ">
                 <div class="container">
                     <div class="text-center" style="margin-bottom: 30px;">
@@ -170,8 +177,7 @@
                                 </div>
                             </div>
                             <ol class="carousel-indicators prova">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active rounded-circle">
-                                </li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active rounded-circle"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="1" class="rounded-circle"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="2" class="rounded-circle"></li>
                             </ol>
@@ -192,11 +198,13 @@
                     <div class="mx-auto text-center" style="widows: 20px; padding-top: 200px; padding-bottom: 200px">
                         <h1>download this landing page for free!!</h1>
                         <h3>Lorem ipsum dolor sit amet.</h3>
-                        <button type="button" class="btn btn-light" style="margin-top:30px;">DOWNLOAD</button>
+                        <button type="button" class="btn btn-light zoom" style="margin-top:30px;">DOWNLOAD</button>
                     </div>
                 </div>
             </div>
+            <!-- strato colorato -->
             <div style="height: 60px;background-color: cadetblue"></div>
+            
             <footer class="footer">
                 <div class="container">
                     <div class="social-area pull-right">
